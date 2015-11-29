@@ -1,7 +1,7 @@
 import csv
 
 class CSVWriter:
-	'Write Data to CSV Files.'
+	'Write Coordinates Data to CSV Files.'
 
 	def __init__(self, filename=None, headers=None):
 		self._filename = filename
